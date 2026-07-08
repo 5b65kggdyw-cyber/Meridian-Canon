@@ -21,6 +21,31 @@ If a historical publication exists, it should be recovered before being replaced
 
 New material may clarify, organise, or extend original work, but it must not silently overwrite it.
 
+## Recovery Verification Principle
+
+Absence from an initial repository search does not constitute evidence of absence.
+
+Before any publication is treated as not yet located, the recovery investigation shall include repository search, commit history search, and publication path verification.
+
+Only after those steps have been completed without locating the publication may the item be marked as Recovery Required.
+
+## Recovery Investigation Sequence
+
+Every recovery investigation shall follow this order:
+
+1. Repository content search.
+2. Commit history search.
+3. Publication path verification.
+4. Repository inventory verification where available.
+5. Workshop and legacy source review where available.
+6. Recovery classification.
+
+## Recovery Classifications
+
+Recovered means the publication or source material has been located.
+
+Recovery Required means the publication has not yet been located and must be reconstructed only from verified architectural evidence.
+
 ## Traceability
 
 Every recovered publication should be traceable to its origin.
