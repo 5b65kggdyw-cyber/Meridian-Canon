@@ -29,12 +29,12 @@ Each entry should include:
 | MER-000 | Repository Constitution | Canon Foundation | Constitution | 2026-07-08 | constitution/REPOSITORY-CONSTITUTION.md | None | Governs repository rules and completion standards. |
 | MER-011 | Master Architectural Register | Active Canon Register | Register | 2026-07-08 | registers/MER-011-MASTER-ARCHITECTURAL-REGISTER.md | MER-000 | Controls completion and indexing of publications. |
 | MER-012 | Editorial Process | Canon Foundation | Editorial Methodology | 2026-07-08 | processes/EDITORIAL-PROCESS.md | MER-000, MER-011 | Defines the publication lifecycle. |
+| MER-013 | Meridian App Foundation | Canon Publication | Application Architecture | 2026-07-08 | canon-publications/MER-013-MERIDIAN-APP-FOUNDATION.md | MER-000, MER-011, MER-012 | Establishes the foundational identity, purpose, ethos, and module map for Meridian. |
 
 ## Pending Recovery
 
 The following areas must be recovered, refined, and registered:
 
-- Meridian app architecture
 - Ashlar behavioural architecture
 - Home Screen architecture
 - Habit and routine architecture
