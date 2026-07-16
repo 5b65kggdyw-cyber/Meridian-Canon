@@ -59,6 +59,7 @@ Additional publication families may be established only through Canon-approved c
 | MER-011 | Master Architectural Register | Active Canon Register | Register | 2026-07-08 | registers/MER-011-MASTER-ARCHITECTURAL-REGISTER.md | MER-000 | Controls completion and indexing of publications. |
 | MER-012 | Editorial Process | Canon Foundation | Editorial Methodology | 2026-07-08 | processes/EDITORIAL-PROCESS.md | MER-000, MER-011 | Defines the publication lifecycle. |
 | MER-013 | Meridian App Foundation | Canon Publication | Application Architecture | 2026-07-08 | canon-publications/MER-013-MERIDIAN-APP-FOUNDATION.md | MER-000, MER-001, MER-002, MER-011, MER-012 | Establishes the foundational identity, purpose, ethos, and module map for Meridian. |
+| MPP-100 | Constitution of Meridian Press | Canon Approved | Press Constitution | 2026-07-16 | press-publications/MPP-100-CONSTITUTION-OF-MERIDIAN-PRESS.md | MER-000, MER-001, MER-002, MER-011, MER-012 | Establishes Meridian Press as the official editorial and publishing institution of the Meridian Project, subordinate to the Meridian Constitution and Canon. |
 
 ## Pending Recovery
 
