@@ -7,13 +7,15 @@ Active Canon Register
 
 A publication is not complete until it is registered.
 
-This register is the controlling index for Canon-approved Meridian and Ashlar publications.
+This register is the single controlling index for all Canon-approved Meridian and Ashlar publications.
+
+Publication families exist for organisation, identification, and discoverability. They do not create separate registers or independent constitutional authorities.
 
 ## Register Fields
 
 Each entry should include:
 
-- MER ID
+- Publication ID
 - Title
 - Status
 - Category
@@ -22,9 +24,32 @@ Each entry should include:
 - Dependencies
 - Notes
 
+## Publication Family Architecture
+
+All Canon-approved publications shall be organised within the following publication families while remaining governed by this single Master Architectural Register.
+
+| Prefix | Publication Family | Constitutional Purpose |
+|---|---|---|
+| MER | Meridian Constitutional Publications | Foundational constitutional architecture, governance, doctrine, and core system design. |
+| MPP | Meridian Press Publications | Explanatory papers, editorial guidance, educational works, essays, supporting literature, and public-facing publications. |
+| GRA | Governance & Recovery Architecture | Repository governance, restoration procedures, recovery documentation, audits, and continuity planning. |
+| LEG | Legacy Publications | Historical or superseded publications retained for continuity, archival reference, and constitutional history. |
+
+### Single Register Principle
+
+MER-011 remains the sole authoritative register for every Canon-approved publication. Publication families are organisational classifications only and shall not establish competing registers.
+
+### Constitutional Hierarchy
+
+Publication family membership does not alter constitutional authority. All publications remain subject to the Meridian Constitution, Canon Approval, Editorial Review, repository publication, and registration within MER-011.
+
+No publication family may supersede the Meridian Constitutional Publications or the governing Constitution.
+
+Additional publication families may be established only through Canon-approved constitutional evolution.
+
 ## Active Register
 
-| MER ID | Title | Status | Category | Date Registered | Repository Path | Dependencies | Notes |
+| Publication ID | Title | Status | Category | Date Registered | Repository Path | Dependencies | Notes |
 |---|---|---|---|---|---|---|---|
 | MER-000 | Repository Constitution | Canon Foundation | Constitution | 2026-07-08 | constitution/REPOSITORY-CONSTITUTION.md | None | Governs repository rules and completion standards. |
 | MER-001 | Meridian Foundational Doctrine | Canon Publication | Foundational Doctrine | 2026-07-08 | canon-publications/MER-001-MERIDIAN-FOUNDATIONAL-DOCTRINE.md | MER-000, MER-011, MER-012 | Defines the constitutional foundation and core principles of Meridian. |
