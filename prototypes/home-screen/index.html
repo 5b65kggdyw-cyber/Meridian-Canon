@@ -54,7 +54,7 @@ body{background:linear-gradient(180deg,#f8f4eb 0%,#f4f1e8 100%)}
 .bottom .navitem:disabled{opacity:.62;cursor:default}
 @media(max-width:360px){.brand img{width:76px;height:82px}.greeting{font-size:34px}.brand-title{font-size:15px}.card{padding:16px}.habit .icon{width:43px;height:43px}}
 
-</style></head>
+</style><link rel="stylesheet" href="mer201-v03.css"></head>
 <body><main class="shell">
 <div class="top"><div class="brand"><img src="../../assets/branding/meridian-mark-iphone.svg" alt="The founder-approved Meridian Mark: rough ashlar, refined ashlar, and a vertical golden meridian line"><div><div class="brand-title">Meridian</div><div class="brand-caption">Life navigation</div></div></div><span class="profile" aria-label="Local prototype">L</span></div>
 <div class="eyebrow" style="margin-top:29px" id="phase">YOUR DAY</div><h1 class="greeting" id="greeting">Good morning.</h1><p class="sub" id="date"></p><p class="opening">Your day. Your focus. Your next step.</p>
@@ -93,4 +93,4 @@ body{background:linear-gradient(180deg,#f8f4eb 0%,#f4f1e8 100%)}
  $("reflection").value=data.reflection||"";$("reflection").oninput=e=>{data.reflection=e.target.value;save()};
  renderHabits();renderPriorities();renderAppointments();renderProgress();renderNudge();
 })();
-</script></body></html>
+</script><script defer src="mer201-v03.js"></script></body></html>
