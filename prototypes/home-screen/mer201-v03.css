@@ -1,0 +1,28 @@
+/* MER-201 v0.3: incremental enhancement, existing logo and palette preserved */
+.shell{padding-bottom:calc(125px + env(safe-area-inset-bottom,0px))}
+.brand img{width:52px!important;height:57px!important;transition:width .2s,height .2s}
+.greeting{font-size:29px!important;margin-top:13px!important}
+#phase{margin-top:15px!important}
+.sub{margin-bottom:12px!important}
+body.mer-header-open .brand img{width:92px!important;height:99px!important}
+body.mer-header-open .greeting{font-size:38px!important}
+.mer-header-toggle{background:transparent;border:0;color:#397351;font-size:12px;display:block;margin:0 0 0 auto;padding:8px 2px}
+.mer-header-extra[hidden]{display:none}
+.mer-header-extra{margin-top:9px}
+.mer-accordion{margin-bottom:13px}
+.mer-accordion>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:8px;color:#193d32;font:400 21px Georgia,serif;min-height:32px}
+.mer-accordion>summary::-webkit-details-marker{display:none}
+.mer-accordion>summary::after{content:"⌄";color:#63816d;font:18px sans-serif}
+.mer-accordion[open]>summary::after{content:"⌃"}
+.mer-accordion[open]>summary{margin-bottom:14px}
+.mer-accordion>summary .muted{font:11px -apple-system,BlinkMacSystemFont,sans-serif;margin-left:auto}
+.mer-small-row{display:flex;align-items:center;gap:10px;border-top:1px solid #e9e4d9;padding:9px 0}
+.mer-small-row span{flex:1;font-size:14px}
+.mer-small-row.done span{text-decoration:line-through;color:#9ca69f}
+.mer-small-form{display:flex;gap:8px;margin:12px 0}
+.mer-small-form input{min-width:0;flex:1;padding:11px;border:1px solid #dfd7c8;border-radius:10px;background:#fffdf8}
+.mer-small-form button{padding:10px 15px}
+.mer-status{font-size:11px;color:#7a8d7e}
+.mer-tap-next{cursor:pointer}
+.mer-tap-next:focus-visible,.mer-accordion>summary:focus-visible{outline:3px solid #72ab8e;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.brand img{transition:none}}
