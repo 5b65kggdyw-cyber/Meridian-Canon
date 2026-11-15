@@ -24,6 +24,8 @@
 
 **Founder confirmation:** 2026-11-15. This is the correct logo. The image above is a compressed crop of the original MAP-001 blueprint artwork, not a newly designed logo. For implementation, use this exact design as the source of truth; seek a higher-resolution master before production deployment if needed.
 
+**iPhone implementation asset (2026-11-15):** `assets/branding/meridian-mark-iphone.svg` is a valid, lightweight, responsive SVG approximation of the approved stone-and-meridian composition. The Home Screen uses this file to avoid the broken JPEG. This is a *functional reconstruction*, **not** the approved original raster mark or an exact vector master; compare visually with the founder-confirmed image above before promoting it as final brand artwork.
+
 ## 2. Meridian — identity
 **Name:** Meridian. **Intelligent steward:** Ashlar.  
 **Canonical guiding line:** “Technology should disappear. Life should remain.” (Founder's Constitution.)  
