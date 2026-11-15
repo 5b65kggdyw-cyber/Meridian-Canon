@@ -1,13 +1,13 @@
 # MERIDIAN — RECOVERED IDENTITY & HOME SCREEN DESIGN SOURCE
 **Document ID:** MER-ID-001 (working reference; not a Canon publication)  
-**Version:** 0.1.0 — recovered evidence  
+**Version:** 0.2.0 — founder-confirmed logo reference  
 **Date:** 2026-11-15  
-**Status:** RECOVERED / FOUNDER REVIEW REQUIRED  
+**Status:** MERIDIAN MARK FOUNDER-CONFIRMED (2026-11-15); OTHER DESIGN DECISIONS STILL UNDER REVIEW  
 **Purpose:** One readable, durable source for Meridian/Ashlar identity, historic logo, UI design, and first mobile Home Screen rebuild. **This file is not a substitute for the constitutional Canon or founder approval.**
 
 ## 1. Source hierarchy and evidence
 **Verified visual references (original user library assets):**
-1. **MAP-001 — The Meridian Blueprint**, Founder's master architectural plan, approved by the founder 7 July 2026. Recovered image: `BA9F6B8C-46EA-4C32-A69E-E649CB430C7C.jpeg` (ChatGPT Library file ID `file_0000000037ec820d990a8f3cd0b54f17`). This is the controlling visual evidence for the **Meridian Mark** and philosophical architecture. The actual image is **not yet committed as an asset to the repository**.
+1. **MAP-001 — The Meridian Blueprint**, Founder's master architectural plan, approved by the founder 7 July 2026. Recovered image: `BA9F6B8C-46EA-4C32-A69E-E649CB430C7C.jpeg` (ChatGPT Library file ID `file_0000000037ec820d990a8f3cd0b54f17`). This is the controlling visual evidence for the **Meridian Mark** and philosophical architecture. A cropped reference of the **founder-confirmed original mark** is now committed at `assets/branding/meridian-mark-approved-reference.jpg` (compressed extraction from the historical source; **not original vector master**).
 2. **Meridian Flourishing App Showcase.png**, recovered high-resolution four-screen concept image (ChatGPT Library file ID `file_00000000f8f081f48de3e90ef7634701`). Illustrates Meridian Home, Life Compass, Ashlar and Reflection, with original five-destination navigation. **Design reference, not evidence that its details are production-approved.** The actual image is **not yet committed as an asset to the repository**.
 3. **Meridian_Canon_Stage_One_Publishing_Standard.pdf**, Founder's publishing standard (ChatGPT Library file ID `file_000000000f2871f4867d81395e9ecb2c`). Contains verified colour HEX codes, typography direction and editorial tone; primarily a publishing standard, so don't assume all document colours are mandatory screen colours.
 4. **MFD-001_The_Meridian_Constitution_Founders_Edition.pdf**, Founder-approved constitutional text (ChatGPT Library file ID `file_000000008e4c71f49375f536b6af7f5c`).
@@ -17,6 +17,12 @@
 **Provisional implementation source:** `working-drafts/MER-201-HOME-SCREEN-RECOVERY.md` and `prototypes/home-screen/SPEC.md` on `feature/home-screen-recovery-mvp`. Not approved Canon. The prototype code has placeholders and may **not** override verified visual references.
 
 **Recovery integrity:** The complete original editable `MAP-001` artwork, the original logo master vectors, and full MFD-004 Design Bible have **not been verified as editable originals**. Do not claim that a traced/reconstructed SVG is the master logo. Keep recovered facts distinct from implementation proposals.
+
+## Approved Meridian Mark — embedded visual reference
+
+![Founder-confirmed original Meridian Mark](../assets/branding/meridian-mark-approved-reference.jpg)
+
+**Founder confirmation:** 2026-11-15. This is the correct logo. The image above is a compressed crop of the original MAP-001 blueprint artwork, not a newly designed logo. For implementation, use this exact design as the source of truth; seek a higher-resolution master before production deployment if needed.
 
 ## 2. Meridian — identity
 **Name:** Meridian. **Intelligent steward:** Ashlar.  
@@ -28,7 +34,7 @@
 **Behavioural principles:** Identity before activity; consistency over intensity; momentum over perfection; recovery before judgement; Ashlar thinks *with*, never *for*, the person.
 
 ## 3. The Meridian Mark — primary corporate identity
-**The approved mark is NOT the starburst/asterisk `✺` in the live prototype.** MAP-001 contains the actual design:
+**The founder confirmed this exact mark on 2026-11-15. The approved mark is NOT the starburst/asterisk `✺` in the live prototype.** MAP-001 contains the actual design:
 - A **rough, textured left ashlar** (unworked stone / possibility).
 - A **refined, straight-edged right ashlar** (shaping / formation).
 - **One slim, uninterrupted vertical meridian line** passing across/between them (direction, purpose, truth, alignment).
